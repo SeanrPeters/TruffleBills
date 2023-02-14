@@ -20,12 +20,12 @@ app.post("/items", (req, res) => {
     bill.hasOwnProperty("hospital") &&
     bill.hasOwnProperty("amount")
   ) 
-  {                // sends the clients input, 'bill', to the data structure, 'bills'
+  {                // sends the client's input, 'bill', to the data structure, 'bills'
     bills.push(bill);
-                  // respons for the bill
+                  // response for the bill
     res.json(bill);
   } 
- else             // else statements used to send an error code when the clients input is invalid
+ else             // else statements used to send an error code when the client's input is invalid
     res.send("Error: Your JSON request is invalid");
 });
                 //Ensures that the program is running on the proper host

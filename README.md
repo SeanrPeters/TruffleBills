@@ -1,5 +1,3 @@
-# TruffleBills
-## Back end internship assessment for Truffle Health 
 Implements a simple medical bill upload service using Node and Express
 To Run:
 1. clone reposory and instal any ecessary dependancies 
